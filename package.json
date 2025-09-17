@@ -17,6 +17,10 @@
     "react-dom": "19.1.0",
     "react-phone-number-input": "^3.4.12"
   },
+  "engines": {
+  "node": "18.x"
+},
+
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
@@ -29,3 +33,4 @@
     "typescript": "^5"
   }
 }
+

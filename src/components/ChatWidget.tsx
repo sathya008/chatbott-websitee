@@ -198,14 +198,14 @@ export default function ChatWidget() {
             if (success) {
                 setTimeout(() => {
                     addMessage(currentFlowStep.botResponse, 'bot');
-                    setFlowState(currentFlowStep.nextState);
+                        setFlowState(currentFlowStep.nextState ?? "END");
                 }, 500);
             }
         } else {
 
             setIsTyping(false);
             addMessage(currentFlowStep.botResponse, 'bot');
-            setFlowState(currentFlowStep.nextState);
+            setFlowState(currentFlowStep.nextState ?? "END");
         }
     };
 
