@@ -18,7 +18,7 @@
     "react-phone-number-input": "^3.4.12"
   },
   "engines": {
-  "node": "18.x"
+  "node": "22.x"
 },
 
   "devDependencies": {
